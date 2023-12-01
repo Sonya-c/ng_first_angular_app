@@ -16,8 +16,8 @@ import { HousingLocation } from '../housinglocation';
         <button class="primary" type="button">Search</button>
       </form>
     </section>
-    <section>
-      <app-housing-location [housingLocation]="housingLocation"]></app-housing-location>
+    <section class="results">
+      <app-housing-location [housingLocation]="housingLocation"></app-housing-location>
     </section>
   `,
   styleUrls: ['./home.component.css'],
